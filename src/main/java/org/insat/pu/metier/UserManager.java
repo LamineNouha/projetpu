@@ -17,7 +17,7 @@ public class UserManager {
 	
 	public void ajouterUser(User p){
 		dao.ajouterUser(p);
-		
+		System.out.println("j'ai oublié le point virgule :p")
 	}
 	public Role getRole(Long id) {
 		return dao.getRole(id);
